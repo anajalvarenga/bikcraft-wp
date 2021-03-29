@@ -4,12 +4,7 @@
 
 <?php get_header(); ?>
 
-		<section class="introducao-interna interna_sobre">
-			<div class="container">
-				<h1>Sobre</h1>
-				<p>conheça mais sobre a bikcraft</p>
-			</div>
-		</section>
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="missao_sobre container animar-interno">
 			<div class="grid-10">
