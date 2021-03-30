@@ -5,12 +5,8 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		<section class="introducao-interna interna_contato">
-			<div class="container">
-				<h1>Contato</h1>
-				<p>tire suas dúvidas com a gente</p>
-			</div>
-		</section>
+
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="contato container animar-interno">
 			<form action="enviar.php" method="post" name="form" class="formphp contato_form grid-8">
