@@ -13,3 +13,10 @@
     </li>
 
 </ul>
+
+<?php if(!is_page('portfolio')) { ?>
+    <div class="call">
+        <p><?php the_field('chamada_portfolio'); ?></p>
+        <a href="/sites/bikcraft/portfolio/" class="btn">Portfólio</a>
+    </div>
+<?php } ?>
