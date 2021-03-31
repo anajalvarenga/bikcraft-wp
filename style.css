@@ -16,6 +16,12 @@ Version: 1.0
 @import "css/responsivo.css";
 @import "css/sobre.css";
 
+/* Estilos ADM wordpress */
+
+.customize-support .header {
+  margin-top: 32px;
+}
+
 /* Estilos Gerais */
 
 body {
