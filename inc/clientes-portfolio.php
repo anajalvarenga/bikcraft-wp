@@ -1,4 +1,4 @@
-<?php $sobre = get_page_by_title('portfolio'); ?>
+<?php $portfolio = get_page_by_title('portfolio'); ?>
 
 <ul class="portfolio_lista rslides_portfolio">
     <?php if(have_rows('item_portfolio', $portfolio)): while(have_rows('item_portfolio', $portfolio)) : the_row(); ?>
