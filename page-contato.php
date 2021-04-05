@@ -41,7 +41,7 @@
 		</section>
 
 		<section class="container contato_mapa">
-			<a href="<?php thefield('link_mapa'); ?>" target="_blank" class="grid-16"><img src="<?php thefield('imagem_mapa'); ?>" alt="<?php thefield('texto_mapa'); ?>"></a>
+			<a href="<?php the_field('link_mapa'); ?>" target="_blank" class="grid-16"><img src="<?php the_field('imagem_mapa'); ?>" alt="<?php the_field('texto_mapa'); ?>"></a>
 		</section>
 
 <?php endwhile; else: endif; ?>
