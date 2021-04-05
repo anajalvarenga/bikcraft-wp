@@ -32,7 +32,7 @@
 					<p><?php the_field('quote_introducao'); ?></p>
 					<cite><?php the_field('citacao_introducao'); ?></cite>
 				</blockquote>
-				<a href="/sites/bikcraft/produtos/" class="btn">Orçamento</a>
+				<a href="<?php bloginfo('url'); ?>/produtos/" class="btn">Orçamento</a>
 			</div>
 		</section>
 		
@@ -63,7 +63,7 @@
 
 			<div class="call">
 				<p><?php the_field('chamada_produtos'); ?></p>
-				<a href="/sites/bikcraft/produtos" class="btn btn-preto">Produtos</a>
+				<a href="<?php bloginfo('url'); ?>/produtos" class="btn btn-preto">Produtos</a>
 			</div>
 
 		</section>
