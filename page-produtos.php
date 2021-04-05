@@ -27,6 +27,8 @@
 				</a>
 			</section>
 		<?php endwhile; else: endif; ?>
+		<?php wp_reset_query(); wp_reset_postdata(); ?>
+		
 		<?php include(TEMPLATEPATH . "/inc/produtos-orcamento.php"); ?>
 <?php endwhile; else: endif; ?>
 
