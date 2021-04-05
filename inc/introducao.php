@@ -1,5 +1,5 @@
 <style type="text/css">
-.introducao_interna {
+.introducao-interna {
 	background: url("<?php the_field('background_interno'); ?>") no-repeat center;
     background-size: cover;
 }
